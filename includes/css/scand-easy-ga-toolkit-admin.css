@@ -1,0 +1,300 @@
+.scand-easy-ga-main-header {
+	font-size: 1.5em;
+}
+
+.scand-easy-ga-sub-header {
+	font-size: 1.17em;
+}
+
+#scand-easy-ga-toolkit-form {
+	margin: 5px;
+}
+
+.scand-form-item input {
+	width: 50%;
+}
+
+#ga-tracking-id {
+	width: 150px;
+}
+
+.easy-ga-custom-events input[type=number] {
+	height: unset;
+}
+
+.easy-ga-custom-events input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.scand-event-type {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+
+#scand-custom-events-area .row {
+	line-height: 30px;
+}
+
+.scand-required:after {
+	content: " *";
+}
+
+.row > td:first-child {
+	width: 15%;
+}
+
+.scand-input:valid {
+	background-color: #ccffdd;
+}
+
+.scand-input:invalid {
+	background-color: #ffe6e6;
+}
+
+.scand-input-optional:valid {
+	background-color: #ffffff;
+}
+
+.scand-input-optional:invalid {
+	background-color: #ffe6e6;
+}
+
+.scand-input {
+	width: 99%;
+}
+
+.scand-event-notification {
+	vertical-align: middle;
+}
+
+.anb-event {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.scand-ga-id-label {
+	display: inline-block;
+}
+
+.scand-ga-field-label {
+	display: inline-block;
+	width: 60%;
+	vertical-align: middle;
+}
+
+.scand-ga-table-label {
+	text-align: left;
+	font-size: 14px;
+	font-weight: 500;
+	padding-top: 5px;
+	position: relative;
+}
+
+#scand-download-ext {
+	margin-top: 5px;
+	margin-left: -2px;
+}
+
+.download-input {
+	min-width: 600px;
+}
+
+#scand-description,
+.scand-description {
+	width: 100%;
+	margin-bottom: 30px;
+	border: 1px solid slategrey !important;
+	background: #ffffff;
+	padding-left: 20px;
+	padding-bottom: 14px;
+}
+
+#scand-warning {
+	width: 75%;
+	margin-top: 30px;
+	border: 1px solid slategrey !important;
+	background: #ffffff;
+	padding-left: 20px;
+}
+
+.scand-small-th {
+	padding-bottom: 10px !important;
+}
+
+#scand-custom-events-area tbody {
+	display: block;
+}
+
+.scand-analytics-radio {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.scand-custom-event-remove {
+	margin-bottom: 10px !important;
+}
+
+p.submit {
+	margin-top: 50px;
+}
+
+span.scand-mode-caption {
+	display: inline-block;
+	width: 90px;
+}
+
+.scand-buttons-area {
+	margin-bottom: 20px;
+}
+
+.show-examp {
+	margin-right: 20px;
+}
+
+.easy-ga-custom-events .postbox-container {
+	float: none;
+}
+
+.easy-ga-custom-events .postbox h2 span {
+	font-size: 14px;
+}
+
+.easy-ga-custom-events .postbox {
+	margin-bottom: 5px;
+	min-width: 1250px;
+}
+
+.scand-poststuff {
+	padding-top: 0;
+}
+
+#scand-custom-events-area {
+	display: table-cell;
+	width: 670px;
+}
+
+.scand-preview-area {
+	display: table-cell;
+	vertical-align: top;
+	width: 100%;
+	padding-left: 30px;
+}
+
+.scand-preview-area textarea {
+	width: 100%;
+	white-space: pre;
+	height: 265px;
+}
+
+.wp-admin select {
+	height: auto;
+}
+
+.scand-select {
+	margin-top: -3px;
+}
+
+.scand-ga-table-label-border {
+	padding-top: 30px;
+}
+
+.scand-ga-table-label-border::before {
+	content: '';
+	position: absolute;
+	display: inline-block;
+	border-top: 1px solid lightgray;
+	top: 8px;
+	width: 100%;
+}
+
+.scand-textarea {
+	width: 100%;
+	height: 70px;
+}
+
+.scand-custom-events-header {
+	display: inline-block;
+	position: relative;
+}
+
+#scand-show-more {
+	display: inline-block;
+	position: absolute;
+	top: 3px;
+	right: -25px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid grey;
+}
+
+#scand-show-more:hover {
+	cursor: pointer;
+}
+
+#scand-show-more .question {
+	position: absolute;
+	font-size: 15px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.form-table th {
+	padding: 20px 10px;
+}
+
+#scand-popup {
+	position: fixed;
+	display: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%, -40%);
+	z-index: 99999;
+}
+
+#scand-popup-shadow {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 9999;
+}
+
+#close-popup {
+	position: absolute;
+	top: 10px;
+	right: -10px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 40px;
+	border: none;
+	color: #444;
+	background-color: transparent;
+}
+
+button:focus {
+	outline: none;
+}
+
+#close-popup:hover {
+	cursor: pointer;
+}
+
+th.scand-custom-events {
+	padding: 0;
+}
+
+.meta-box-sortables select {
+	min-width: 100%;
+}
+
+.description dl {
+	padding-right: 20px;
+}

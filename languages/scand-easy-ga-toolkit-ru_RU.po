@@ -1,0 +1,351 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Scand Easy Google Analytics Toolkit\n"
+"POT-Creation-Date: 2017-10-31 11:34+0300\n"
+"PO-Revision-Date: 2018-02-09 20:12+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-scand-easy-ga-toolkit-admin.php:146
+msgid "Invalid google Tracking ID"
+msgstr "Неверный идентификатор Google Analytics"
+
+#: includes/class-scand-easy-ga-toolkit-admin.php:149
+msgid "Invalid file name extensions"
+msgstr "Неверное расширение имени файла"
+
+#: includes/views/main.php:3
+msgid "Easy Google Analytics Toolkit"
+msgstr "Easy Google Analytics Toolkit"
+
+#: includes/views/main.php:5
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: includes/views/main.php:17
+msgid "Settings saved!"
+msgstr "Настройки успешно сохранены!"
+
+#: includes/views/main.php:26
+msgid "Running mode"
+msgstr "Режим работы"
+
+#: includes/views/main.php:30
+msgid "Production"
+msgstr "Рабочий"
+
+#: includes/views/main.php:33
+msgid "Production (full functionality is available)"
+msgstr "Рабочий (доступна полная функциональность)"
+
+#: includes/views/main.php:36
+msgid "Development"
+msgstr "Тестовый"
+
+#: includes/views/main.php:39
+msgid "Development (GA functions are disabled and replaced with console output)"
+msgstr "Тестовый (GA-функционал отключен и заменен выводом данных в консоль)"
+
+#: includes/views/main.php:44
+msgid "Tracking mode"
+msgstr "Режим отслеживания"
+
+#: includes/views/main.php:50
+#, fuzzy
+#| msgid "Google Analytics"
+msgid "Universal Analytics (analytics.js)"
+msgstr "Универсальная аналитика (analytics.js)"
+
+#: includes/views/main.php:56
+msgid "Global Site Tag (gtag.js)"
+msgstr "Глобальный тег сайта (gtag.js)"
+
+#: includes/views/main.php:62
+msgid "Google Analytics tracking ID"
+msgstr "Идентификатор Google Analytics"
+
+#: includes/views/main.php:69
+msgid "Add Google Analytics tracking ID (UA-XXXXXXX-YY)"
+msgstr "Введите идентификатор Google Analytics  в формате (UA-XXXXXXX-YY)"
+
+#: includes/views/main.php:73
+msgid "Force SSL"
+msgstr "Использовать SSL"
+
+#: includes/views/main.php:83
+msgid "Setting Force SSL to true will force HTTP pages to also send all beacons using HTTPS."
+msgstr "Будет принудительно использоваться передача данных по HTTPS-протоколу."
+
+#: includes/views/main.php:88
+msgid "Event Tracking"
+msgstr "Отслеживаемые события"
+
+#: includes/views/main.php:91
+msgid "Emails"
+msgstr "Ссылки на адреса эл. почты"
+
+#: includes/views/main.php:102
+msgid "looks like <a href=\"mailto:contact@scand.com\">mail me</a>"
+msgstr "ссылка будет иметь вид <a href=\"mailto:contact@scand.com\">mail me</a>"
+
+#: includes/views/main.php:106
+msgid "Phone Numbers"
+msgstr "Ссылки на телефонные номера"
+
+#: includes/views/main.php:117
+msgid "looks like <a href=\"tel:+375172560877\">contact us</a>"
+msgstr "ссылка будет иметь вид <a href=\"tel:+375172560877\">contact us</a>"
+
+#: includes/views/main.php:121
+msgid "Skype"
+msgstr "Скайп"
+
+#: includes/views/main.php:132
+msgid "looks like <a href=\"skype:username\">Call us by skype</a>"
+msgstr "ссылка будет иметь вид <a href=\"skype:username\">Call us by skype</a>"
+
+#: includes/views/main.php:136
+msgid "Outbound"
+msgstr "Ссылки на другие ресурсы"
+
+#: includes/views/main.php:147
+msgid "looks like <a href=\"http://scand.com\"></a>  or <a href=\"https://scand.com\"></a>"
+msgstr "ссылка будет иметь вид <a href=\"http://scand.com\"></a>  или <a href=\"https://scand.com\"></a>"
+
+#: includes/views/main.php:119
+msgid "occurs when moving to a non-existent address"
+msgstr "возникает при переходе на несуществующий адрес"
+
+#: includes/views/main.php:118
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: includes/views/main.php:151 includes/views/main.php:169
+msgid "Downloads"
+msgstr "Ссылки на скачивание файлов"
+
+#: includes/views/main.php:180
+msgid "file extensions without a dot that will be tracked on hit"
+msgstr "расширения файлов должны быть без точки"
+
+#: includes/views/main.php:184
+msgid "Custom Events"
+msgstr "Пользовательские события"
+
+#: includes/views/main.php:190 scand-easy-ga-toolkit.php:98
+msgid "Description"
+msgstr "Показать описание"
+
+#: includes/views/main.php:191 scand-easy-ga-toolkit.php:100
+msgid "Example"
+msgstr "Показать пример"
+
+#: includes/views/main.php:195 includes/views/main.php:246
+#: includes/views/main.php:371 scand-easy-ga-toolkit.php:102
+msgid "JavaScript items"
+msgstr "Параметры JavaScript"
+
+#: includes/views/main.php:196
+msgid "Bound event: a JavaScript event linked with page elements"
+msgstr "Связанное событие: событие JavaScript при взаимодействии  с элементами страницы"
+
+#: includes/views/main.php:197
+msgid "CSS selector: a page element that will interact"
+msgstr "CSS селектор: элемент страницы, с которым будет происходить взааимодействие"
+
+#: includes/views/main.php:198
+msgid "preventDefault: allow or forbid element regular behaviour"
+msgstr "Запретить по умолчанию: запретить событию вести себя как оно должно"
+
+#: includes/views/main.php:199
+msgid "Area for the JavaScript code: becomes visible if you set a data type of GA label and GA value as a JS variable"
+msgstr "Поле для JavaScript-кода: скрыто, но становится видимым, если тип данных в полях Ярлык и Значение установить как JavaScript-инструкцию"
+
+#: includes/views/main.php:202 includes/views/main.php:270
+#: includes/views/main.php:391 scand-easy-ga-toolkit.php:108
+msgid "GA items"
+msgstr "Параметры Google Analytics"
+
+#: includes/views/main.php:203
+msgid "Hit type: a click type generated on page"
+msgstr "Тип обращения: тип клика, сгенерированного страницей"
+
+#: includes/views/main.php:204
+msgid "Category: an object that is interacted with "
+msgstr "Категория: тип объекта, с которым происходит взаимодействие "
+
+#: includes/views/main.php:205
+msgid "Action: a type of interaction"
+msgstr "Действие: тип взаимодействия"
+
+#: includes/views/main.php:206
+msgid "Label: useful for categorizing events"
+msgstr "Ярлык: используется для выделения событий по категориям"
+
+#: includes/views/main.php:207
+msgid "Label/Value type: defines a type of input field data that will be treated as a string literal or a JavaScript variable"
+msgstr "Тип ярлыка/значения: определяет тип данных поля ввода, которые будут обрабатываться как строки или как JavaScript-инструкция"
+
+#: includes/views/main.php:208
+msgid "Value: A numeric value associated with the event"
+msgstr "Значение: цифровое значение, связанное с событием"
+
+#: includes/views/main.php:209
+msgid "NI: a non-interaction marker"
+msgstr "НВ: маркер отсутсвия взаимодействия"
+
+#: includes/views/main.php:218
+msgid "In order to track a click event, you have to type the 'click' value in the 'bound event' input field, then enter any CSS selector you'd like to be tracked down in the 'CSS selector' input field, and specify the preventDefault behaviour in an appropriate dropdown box by selecting a 'yes' or 'no' option . After that, fill in the input fields related to the Google Analytics functionality."
+msgstr "Для отслеживания клика мыши Вам необходимо ввести 'click' в поле 'Связанное событие'. Затем в поле 'CSS-селектор' ввести значение любого CSS-селектора, который будет срабатывать на событие клика мыши. Определите действие по умолчанию выбранного события в выпадающем списке. Перейдите к строке 'GA-параметры' и введите данные в соответствии с требованиями функциональности Google Analytics."
+
+#: includes/views/main.php:211
+msgid "For more details you can visit "
+msgstr "Больше информации Вы можете получить по ссылке "
+
+#: includes/views/main.php:214 includes/views/main.php:224
+msgid "Hide"
+msgstr "Скрыть"
+
+#: includes/views/main.php:218 includes/views/main.php:248
+#: includes/views/main.php:373 scand-easy-ga-toolkit.php:110
+msgid "Bound event"
+msgstr "Связанное событие"
+
+#: includes/views/main.php:253 includes/views/main.php:378
+#: scand-easy-ga-toolkit.php:112
+msgid "CSS selector"
+msgstr "CSS селектор"
+
+#: includes/views/main.php:258 includes/views/main.php:383
+#: scand-easy-ga-toolkit.php:111
+msgid "Prevent default"
+msgstr "Запретить по умолчанию"
+
+#: includes/views/main.php:261 scand-easy-ga-toolkit.php:119
+msgid "Yes"
+msgstr "Да"
+
+#: includes/views/main.php:264 scand-easy-ga-toolkit.php:120
+msgid "No"
+msgstr "Нет"
+
+#: scand-easy-ga-toolkit.php:124
+msgid "Event: {{EVENT}} for {{SELECTOR}}"
+msgstr "Событие: {{EVENT}} для {{SELECTOR}}"
+
+#: scand-easy-ga-toolkit.php:125
+msgid "Event: not defined"
+msgstr "Событие: не определено"
+
+#: class-scand-easy-ga-toolkit-admin.php:139
+msgid "Event"
+msgstr "Событие"
+
+#: scand-easy-ga-toolkit-admin.php:142
+msgid "for"
+msgstr "для"
+
+#: scand-easy-ga-toolkit-admin.php:145
+msgid "not defined"
+msgstr "не определено"
+
+#: includes/views/main.php:272 includes/views/main.php:393
+#: scand-easy-ga-toolkit.php:109
+msgid "Hit type"
+msgstr "Тип обращения"
+
+#: includes/views/main.php:281 includes/views/main.php:402
+#: scand-easy-ga-toolkit.php:113
+msgid "Category"
+msgstr "Категория"
+
+#: includes/views/main.php:287 includes/views/main.php:409
+#: scand-easy-ga-toolkit.php:114
+msgid "Action"
+msgstr "Действие"
+
+#: includes/views/main.php:292 includes/views/main.php:414
+#: scand-easy-ga-toolkit.php:117
+msgid "NI"
+msgstr "НВ"
+
+#: includes/views/main.php:302 includes/views/main.php:440
+#: scand-easy-ga-toolkit.php:115
+msgid "Label"
+msgstr "Ярлык"
+
+#: includes/views/main.php:307 includes/views/main.php:325
+#: includes/views/main.php:445 includes/views/main.php:463
+#: scand-easy-ga-toolkit.php:103
+msgid "Label type"
+msgstr "Тип ярлыка"
+
+msgid "Value type"
+msgstr "Тип значения"
+
+#: includes/views/main.php:310 includes/views/main.php:448
+#: scand-easy-ga-toolkit.php:104
+msgid "String"
+msgstr "Cтрока"
+
+#: includes/views/main.php:313 includes/views/main.php:331
+#: includes/views/main.php:451 includes/views/main.php:469
+#: scand-easy-ga-toolkit.php:106
+msgid "JavaScript instruction"
+msgstr "JavaScript инструкция"
+
+msgid "There must be your JavaScript code here"
+msgstr "Здесь должен быть Ваш JavaScript код"
+
+#: includes/views/main.php:320 includes/views/main.php:458
+#: scand-easy-ga-toolkit.php:116
+msgid "Value"
+msgstr "Значение"
+
+#: includes/views/main.php:328 includes/views/main.php:466
+#: scand-easy-ga-toolkit.php:105
+msgid "Integer"
+msgstr "Число"
+
+#: includes/views/main.php:341 includes/views/main.php:349
+#: includes/views/main.php:423 includes/views/main.php:431
+#: scand-easy-ga-toolkit.php:107
+msgid "Area for JavaScript"
+msgstr "Введите код JavaScript"
+
+#: includes/views/main.php:359 includes/views/main.php:480
+#: scand-easy-ga-toolkit.php:118
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/views/main.php:489
+msgid "Add event"
+msgstr "Добавить событие"
+
+#: includes/views/main.php:491
+msgid "Save Changes"
+msgstr "Сохранить"
+
+#: scand-easy-ga-toolkit.php:97
+msgid "Check category field in your custom events"
+msgstr "Проверьте поле \"Категория\" пользовательских событий"
+
+#: scand-easy-ga-toolkit.php:99
+msgid "Hide description"
+msgstr "Скрыть описание"
+
+#: scand-easy-ga-toolkit.php:101
+msgid "Hide example"
+msgstr "Скрыть пример"
+
+msgid "Scand Easy Google Analytics Toolkit makes it super easy to integrate Google Analytics tracking code in your web-site"
+msgstr "Scand Easy Google Analytics Toolkit упрощает интеграцию кода отслеживания Google Analytics на Ваш веб-сайт"
